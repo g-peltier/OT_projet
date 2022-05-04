@@ -1,6 +1,6 @@
 import torch
 
-class Sinkhorn():
+class SinkhornLayer():
     
     def __init__(self, eps, device=torch.device("cpu")):
         self.eps = eps
