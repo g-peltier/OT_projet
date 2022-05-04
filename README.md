@@ -29,7 +29,7 @@ Once both are install on your system follow thoses instructions:
 ```
 cd OT_projet
 poetry install
-poetry run jupyterlab
+poetry run jupyter lab
 ```
 
 #### Bibliography
