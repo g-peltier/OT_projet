@@ -10,6 +10,7 @@ def get_config():
         "device": torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu"),
         "batch_size": torch.Size([64]),
         "batch_size_1D": torch.Size([64, 1]),
+        "batch_size_dist": torch.Size([64, 3]),
         "val_batch_size": torch.Size([100]),
         "num_epochs": 500,
         "w_gp": 10,
