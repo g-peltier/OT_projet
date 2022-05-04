@@ -417,12 +417,12 @@ numpy = ">=1.18.0"
 typing-extensions = ">=3.10.0"
 
 [[package]]
-name = "ott"
-version = "0.1.15"
-description = "exofrills text editor"
+name = "ott-jax"
+version = "0.2.5"
+description = "OTT: Optimal Transport Tools in Jax."
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">=3.7"
 
 [[package]]
 name = "packaging"
@@ -730,7 +730,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.9"
-content-hash = "604382e82558e7ef30b86e6bca0c5512dabbc408715e229b16f977e711298fc6"
+content-hash = "c6e2adf7d282761e462048327797dfc929c0c3cfdd35fd6757cbe5407b17829e"
 
 [metadata.files]
 absl-py = [
@@ -1041,8 +1041,9 @@ optax = [
     {file = "optax-0.1.2-py3-none-any.whl", hash = "sha256:4e3cb24b70e87acd65700da77c570c468e701d32a2393ae4a5ec35719d90ade6"},
     {file = "optax-0.1.2.tar.gz", hash = "sha256:c2963ffa3b3ac47f72c2866625207c9468558ed18e6e471baac69d4de2ac3f58"},
 ]
-ott = [
-    {file = "ott-0.1.15.tar.gz", hash = "sha256:16ebb816bfd663b2ec23055c177f6abc74eb3379bb4d727e18aade95355628ed"},
+ott-jax = [
+    {file = "ott-jax-0.2.5.tar.gz", hash = "sha256:21f402b6a4e8b325f233d8b85ec39fe6cad0f940c2c568b71af6880e15a613f9"},
+    {file = "ott_jax-0.2.5-py3-none-any.whl", hash = "sha256:b5bd22756aac313246b45c4771a988d41f45774749fc65f7abe106c71b36fd8c"},
 ]
 packaging = [
     {file = "packaging-21.3-py3-none-any.whl", hash = "sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"},
